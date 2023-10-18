@@ -431,3 +431,17 @@ footer {
         width: 100%;
     }
 }
+.typed-text {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    /* Media query for screens with a max width of 768px (tablets and smartphones) */
+    .typed-text {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+        margin: 10px; /* Adjust the margin for smaller screens */
+        text-align: left; /* Change text alignment for better readability on small screens */
+    }
+}
