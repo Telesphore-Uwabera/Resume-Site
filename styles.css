@@ -299,7 +299,7 @@ h2.text-primary {
     display: flex;
     flex-direction: column;
     margin: 0 15px;
-    text-align: center;
+    text-align: both;
 }
 
 .service-item {
@@ -442,12 +442,12 @@ footer {
     .typed-text {
         font-size: 18px; /* Adjust the font size for smaller screens */
         margin: 10px; /* Adjust the margin for smaller screens */
-        text-align: left; /* Change text alignment for better readability on small screens */
+        text-align: both; /* Change text alignment for better readability on small screens */
     }
 }
 .h2-wrap {
     width: 100%; /* Make sure the text takes the full width */
-    text-align: center; /* Center the text horizontally */
+    text-align: both; /* Center the text horizontally */
 }
 
 /* Styles for smaller screens */
@@ -468,7 +468,7 @@ footer {
 
     .col-lg-6 {
         order: 2;
-        text-align: center;
+        text-align:both;
     }
 
     .col-lg-6 img {
@@ -478,7 +478,7 @@ footer {
 /* Add this CSS to your styles.css file */
 @media (max-width: 767px) {
     .col-lg-6.wow.fadeInUp[data-wow-delay="0.1s"] {
-        text-align: center;
+        text-align: both;
     }
 
     .col-lg-6.wow.fadeInUp[data-wow-delay="0.1s"] > div.d-flex {
@@ -488,7 +488,7 @@ footer {
 
     .col-lg-6.wow.fadeInUp[data-wow-delay="0.1s"] h3,
     .col-lg-6.wow.fadeInUp[data-wow-delay="0.1s"] p {
-        text-align: center;
+        text-align: both;
         margin: 5px;
     }
 
@@ -509,7 +509,7 @@ footer {
     
     .tab-content .col-sm-6 {
         width: 100%;
-        text-align: center;
+        text-align: both;
         margin-bottom: 20px;
     }
 }
@@ -517,7 +517,7 @@ footer {
 /* Add this CSS to your styles.css file */
 @media (max-width: 767px) {
     .col-lg-6 {
-        text-align: center;
+        text-align: both;
     }
 }
 /* Add this CSS to your styles.css file */
@@ -538,7 +538,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        text-align: both;
     }
     .person {
         margin-bottom: 20px; /* Adjust this margin as needed */
