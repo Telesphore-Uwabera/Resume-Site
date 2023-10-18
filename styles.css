@@ -356,52 +356,71 @@ footer {
 .person img {
     border-radius: 30px;
 }
-/* Default styles for larger screens */
-.navbar-nav.me-auto {
+/* Add this CSS to your styles.css file */
+.navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-brand {
-    display: block;
+.navbar .navbar-brand {
+    margin-right: 20px;
 }
 
-.navbar-nav.me-auto a.nav-item {
-    display: block;
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
 }
 
-/* Styles for smaller screens (e.g., smartphones) */
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 3px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+/* Media query for small screens */
 @media (max-width: 768px) {
-    .navbar-nav.me-auto {
-        flex-direction: column;
-    }
-
-    .navbar-nav.me-auto a.nav-item {
+    .nav-links {
         display: none;
-        padding: 10px;
-        text-align: center;
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    .navbar-toggler {
-        display: block;
+    .nav-links.show {
+        display: flex;
     }
 
-    .navbar-toggler:focus {
-        outline: none;
-    }
-
-    .navbar-toggler-icon {
-        background-color: #000;
-    }
-
-    .navbar-toggler-icon::before, .navbar-toggler-icon::after {
-        background-color: #000;
-    }
-
-    .navbar-toggler.collapsed + .navbar-nav.me-auto a.nav-item {
-        display: block;
+    .menu-toggle {
+        display: flex;
     }
 }
+
 @media (max-width: 768px) {
     .container-fluid {
         padding: 20px; /* Add padding to give space between the image and text */
