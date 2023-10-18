@@ -237,3 +237,69 @@ h2.text-primary {
 .col-sm-6 {
     flex-basis: 50%;
 }
+.contact-form {
+    background-color: #abbeb3;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #779e85;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    margin-top: 0;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 6px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.contact-form {
+    display: flex;
+    align-items: stretch;
+    /* Adjust alignment as needed */
+}
+
+.contact-form-container {
+    flex: 1;
+    /* This div takes up half of the width */
+    padding: 20px;
+}
+footer {
+    padding: 20px;
+}
+
+.footer-row img {
+    margin-right: 40px;
+    width: 80px;
+    height: 40px;
+}
