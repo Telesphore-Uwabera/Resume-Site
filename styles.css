@@ -384,7 +384,7 @@ footer {
 }
 @media (max-width: 768px) {
     .typed-text h2 {
-        font-size: 16px; /* Adjust the font size as needed */
+        font-size: 8px; /* Adjust the font size as needed */
         white-space: normal;
     }
 }
@@ -394,7 +394,7 @@ footer {
     }
 
     .navbar-brand img {
-        height: 40px; /* Adjust the logo height as needed */
+        height: 20px; /* Adjust the logo height as needed */
     }
 
     .navbar-nav a {
