@@ -356,3 +356,49 @@ footer {
 .person img {
     border-radius: 30px;
 }
+/* Default styles for larger screens */
+.navbar-nav.me-auto {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    display: block;
+}
+
+.navbar-nav.me-auto a.nav-item {
+    display: block;
+}
+
+/* Styles for smaller screens (e.g., smartphones) */
+@media (max-width: 768px) {
+    .navbar-nav.me-auto {
+        flex-direction: column;
+    }
+
+    .navbar-nav.me-auto a.nav-item {
+        display: none;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #000;
+    }
+
+    .navbar-toggler-icon::before, .navbar-toggler-icon::after {
+        background-color: #000;
+    }
+
+    .navbar-toggler.collapsed + .navbar-nav.me-auto a.nav-item {
+        display: block;
+    }
+}
