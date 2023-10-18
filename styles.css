@@ -381,3 +381,27 @@ footer {
 .person img {
     border-radius: 30px;
 }
+/* Add this CSS to center the nav-list content and fix the page width */
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list li {
+    margin-right: 15px;
+}
+
+/* To make the page width 100% on smaller screens and computers */
+@media (max-width: 991px) {
+    .navbar {
+        width: 100%;
+    }
+}
