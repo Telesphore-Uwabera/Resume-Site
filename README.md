@@ -77,5 +77,5 @@ Thank you for visiting my personal website! Feel free to reach out if you have a
 
 [LinkedIn](https://www.linkedin.com/in/telesphore-uwabera-a31760251) | [Email](mailto:telesphore91073@gmail.com) | [GitHub](https://github.com/Telesphore-Uwabera)
 ```
-
 Here is the link to the project https://telesphore-uwabera.github.io/Resume-Site/
+
