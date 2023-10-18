@@ -447,3 +447,9 @@ footer {
         width: 100%; /* Make both columns take up the full width on smaller screens */
     }
 }
+@media (max-width: 768px) {
+    .typed-text h2 {
+        font-size: 16px; /* Adjust the font size as needed */
+        white-space: normal;
+    }
+}
