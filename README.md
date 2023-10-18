@@ -1,5 +1,3 @@
-Certainly, here's an example of a README.md file for your project:
-
 ```markdown
 # Telesphore Uwabera - Personal Website
 
