@@ -40,6 +40,21 @@
     justify-content: center;/* Make the image fill its container */
     border-radius: 30px;
 }
+.typed-text {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    animation: typing 6s steps(40) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
 
 #home .col-lg-6 h3,
 #home .col-lg-6 h1,
@@ -104,4 +119,121 @@ h3.lh-base.mb-0 {
         background: blue; /* Background color on hover */
         color: white; /* Text color on hover */
     }
+}
+.text-primary {
+    color: blue; /* Sets the text color to blue */
+}
+
+.border-end {
+    border-right: 2px solid black; /* Adds a blue border to the right of the element */
+    padding-right: 10px; /* Adds spacing to separate text from the border */
+}
+
+.text-primary.fw-bold {
+    font-weight: bold; /* Makes the text bold */
+}
+/* Style for "Happy Clients" and "Projects Completed" headings */
+h3.text-primary {
+    color: black; /* Set the text color to blue */
+    font-weight: bold; /* Remove bold style */
+    
+}
+
+/* Style for the "4" in both sections */
+h2.text-primary {
+    color: blue; /* Set the text color to blue */
+    font-weight: bold; /* Apply bold style */
+}
+/* Style the progress bars */
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.progress {
+    width: 75%;
+    margin: 0;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    position: relative;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    text-align: right;
+    padding: 0.25rem;
+    font-weight: bold;
+}
+
+/* Customize progress bar colors */
+.progress-html .progress-bar {
+    background-color: #007bff;
+    width: 95%;
+}
+
+.progress-css .progress-bar {
+    background-color: #ffc107;
+    width: 85%;
+}
+
+.progress-php .progress-bar {
+    background-color: #dc3545;
+    width: 85%;
+}
+
+.progress-javascript .progress-bar {
+    background-color: #17a2b8;
+    width: 70%;
+}
+
+.progress-python .progress-bar {
+    background-color: #343a40;
+    width: 85%;
+}
+
+.progress-shell .progress-bar {
+    background-color: #fd7e14;
+    width: 80%;
+}
+
+.progress-mysql .progress-bar {
+    background-color: #20c997;
+    width: 75%;
+}
+.services {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.service-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.bg-icon {
+    margin-right: 15px;
+}
+
+.col-lg-6 .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-sm-6 {
+    flex-basis: 50%;
 }
