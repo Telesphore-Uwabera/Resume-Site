@@ -303,3 +303,27 @@ footer {
     width: 80px;
     height: 40px;
 }
+/* CSS to arrange images in the same row and change cursor to blue on hover */
+.portfolio-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+    -ms-overflow-style: -ms-autohiding-scrollbar; /* Optional: Hide scrollbar for Edge browsers */
+    cursor: pointer; /* Change cursor to pointer */
+    color: blue;
+}
+
+.portfolio-item {
+    flex: 0 0 auto; /* Prevent item from shrinking */
+}
+
+.image-fluid {
+    margin-right: 10px; /* Add some spacing between images */
+    height:40px;
+    width: 40px;
+}
+
+/* Change cursor to blue on hover */
+.portfolio-item:hover {
+    cursor: pointer;
+}
