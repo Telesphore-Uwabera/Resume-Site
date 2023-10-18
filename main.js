@@ -14,9 +14,4 @@ const typedText = document.querySelector('.typed-text');
   setTimeout(function() {
     typedText.style.animation = 'none'; // Pause the animation
   }, 8000); // 8 seconds (8000 milliseconds) for the animation to complete
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
-
-menuToggle.addEventListener('click', () => {
-    navLinks.classList.toggle('show');
-});
+  

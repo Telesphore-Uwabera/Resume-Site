@@ -356,71 +356,6 @@ footer {
 .person img {
     border-radius: 30px;
 }
-/* Add this CSS to your styles.css file */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #fff;
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.navbar .navbar-brand {
-    margin-right: 20px;
-}
-
-.menu-toggle {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.bar {
-    width: 25px;
-    height: 3px;
-    background-color: #000;
-    margin: 3px 0;
-}
-
-.nav-links {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    margin-right: 20px;
-}
-
-/* Media query for small screens */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background-color: #fff;
-        position: absolute;
-        top: 60px;
-        left: 0;
-        right: 0;
-        padding: 20px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-
-    .nav-links.show {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: flex;
-    }
-}
-
 @media (max-width: 768px) {
     .container-fluid {
         padding: 20px; /* Add padding to give space between the image and text */
@@ -452,4 +387,33 @@ footer {
         font-size: 16px; /* Adjust the font size as needed */
         white-space: normal;
     }
+}
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px 0; /* Adjust the padding as needed */
+    }
+
+    .navbar-brand img {
+        height: 40px; /* Adjust the logo height as needed */
+    }
+
+    .navbar-nav a {
+        padding: 8px 10px; /* Adjust the padding as needed */
+    }
+
+    .btn-custom {
+        display: none; /* Hide the GitHub button on smaller screens */
+    }
+}
+.person-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    text-align: center;
+    width: 100%; /* Make each person take the full width on smaller screens */
+    margin: 10px 0;
 }
