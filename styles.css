@@ -1,0 +1,107 @@
+#navbarCollapse {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center; /* Center the items vertically within the navbar */
+    list-style: none; /* Remove the default list styles */
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 0 15px; /* Adjust the horizontal spacing between navigation items */
+}
+
+.navbar-brand {
+    margin-right: 20px; /* Add some space to the right of the brand logo */
+}
+
+.btn-custom {
+    /* Your button styles here */
+}
+#home .container .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: left;
+}
+
+#home .col-lg-6 {
+    flex: 0 0 50%; /* The image takes up 50% of the width */
+    max-width: 50%;
+    padding: 0;
+}
+
+#home .col-lg-6 img {
+    width: 80%; 
+    justify-content: center;/* Make the image fill its container */
+    border-radius: 30px;
+}
+
+#home .col-lg-6 h3,
+#home .col-lg-6 h1,
+#home .col-lg-6 h2,
+#home .col-lg-6 .typed-text,
+#home .col-lg-6 .d-flex {
+    padding: 30px; /* Add spacing to the text content */
+}
+.d-flex.align-items-center.pt-5 a.btn.btn-primary {
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+.d-flex.align-items-center.pt-5 a.btn.btn-primary:hover {
+    background-color: white;
+    color: blue;
+}
+/* Apply flexbox to the parent container to align items in a row */
+.d-flex.align-items-center.mb-5 {
+    display: flex;
+    flex-direction: row; /* Make the items align horizontally */
+    align-items: center; /* Vertically align the items */
+}
+
+/* Add a margin to separate "2" from the text */
+.years.flex-shrink-0.text-center.me-4 h1.display-1.mb-0 {
+    margin-right: 1rem; /* Adjust the margin as needed */
+    font-size: 64px;
+}
+
+/* Adjust text alignment and margins for the description */
+h3.lh-base.mb-0 {
+    margin: 0;
+}
+.row.g-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row.g-5 .col-lg-6 {
+    flex: 0 0 48%; /* Adjust the width as needed */
+}
+
+.row.g-5 .col-lg-6:last-child {
+    flex: 0 0 48%; /* Adjust the width as needed */
+}
+.btn-custom {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: transparent;
+    color: blue; /* Text color when not hovered */
+    border: 2px solid blue; /* Blue border */
+    transition: all 0.3s; /* Add smooth transition effect */
+    border-radius: 5px;
+
+    /* Hover effect */
+    &:hover {
+        background: blue; /* Background color on hover */
+        color: white; /* Text color on hover */
+    }
+}
