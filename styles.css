@@ -1,14 +1,40 @@
-ul.nav-list {
-    list-style: none;
-    padding: 0;
+.menu {
+    background-color:white;
+}
+
+.nav-list {
+    list-style-type: none;
     margin: 0;
-  }
-  
-  /* Style the menu items to display in a row */
-  ul.nav-list li {
-    display: inline;
-    margin-right: 20px; /* Adjust the spacing between items */
-  }
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 20px;
+}
+
+.btn-custom {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    /* Media query for screens with a max width of 768px */
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+
+    .btn-custom {
+        display: block;
+        text-align: center;
+        margin: 20px 0;
+    }
+}
   
   /* Style the "GitHub Works" button */
   .btn-custom {
