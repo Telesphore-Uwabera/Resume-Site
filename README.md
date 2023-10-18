@@ -61,7 +61,6 @@ The website is built using the following technologies and tools:
 
 - HTML5
 - CSS3
-- Bootstrap
 - JavaScript (for animations and interactions)
 
 ## Contributing
