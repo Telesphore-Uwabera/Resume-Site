@@ -79,4 +79,3 @@ Thank you for visiting my personal website! Feel free to reach out if you have a
 [LinkedIn](https://www.linkedin.com/in/telesphore-uwabera-a31760251) | [Email](mailto:telesphore91073@gmail.com) | [GitHub](https://github.com/Telesphore-Uwabera)
 ```
 
-Please replace placeholders like `https://www.example.com`, `yourusername`, and `your-repo` with the actual URLs and information specific to your project. Also, make sure to provide the correct links to your social media profiles and contact information.
