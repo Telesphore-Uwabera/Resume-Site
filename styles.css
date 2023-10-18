@@ -415,3 +415,16 @@ footer {
         text-align: center; /* Center the image */
     }
 }
+@media (max-width: 768px) {
+    .container-xxl {
+        padding: 20px; /* Add padding to give space between the two sections */
+    }
+    
+    .row {
+        flex-direction: column; /* Display the sections in a column layout on smaller screens */
+    }
+
+    .col-lg-6 {
+        width: 100%; /* Make both columns take up the full width on smaller screens */
+    }
+}
