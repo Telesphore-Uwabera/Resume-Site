@@ -1,40 +1,43 @@
 .menu {
-    background-color:white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav-list {
-    list-style-type: none;
+    display: flex;
+    list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 
 .nav-list li {
-    margin: 0 20px;
+    margin-right: 20px;
 }
 
-.btn-custom {
-    display: none;
-}
-
+/* Styles for smaller screens */
 @media (max-width: 768px) {
-    /* Media query for screens with a max width of 768px */
-    .nav-list {
+    .menu {
         flex-direction: column;
         align-items: center;
     }
 
-    .nav-list li {
-        margin: 10px 0;
+    .nav-list {
+        flex-direction: column;
     }
 
-    .btn-custom {
-        display: block;
-        text-align: center;
-        margin: 20px 0;
+    .nav-list li {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
+
+/* Additional styles for very small screens (optional) */
+@media (max-width: 480px) {
+    .nav-list li {
+        font-size: 18px;
+    }
+}
+
   
   /* Style the "GitHub Works" button */
   .btn-custom {
