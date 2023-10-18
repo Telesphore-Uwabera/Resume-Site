@@ -1,4 +1,29 @@
-#navbarCollapse {
+ul.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Style the menu items to display in a row */
+  ul.nav-list li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between items */
+  }
+  
+  /* Style the "GitHub Works" button */
+  .btn-custom {
+    background-color: #007BFF; /* Customize the background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust the padding as needed */
+    text-decoration: none;
+    border-radius: 5px; /* Add rounded corners */
+  }
+  
+  /* Style the logo */
+  .logo img {
+    vertical-align: middle; /* Center the image vertically */
+  }
+  #navbarCollapse {
     display: flex;
     justify-content: center;
     /* Center the content horizontally */
@@ -355,68 +380,4 @@ footer {
 
 .person img {
     border-radius: 30px;
-}
-@media (max-width: 768px) {
-    .container-fluid {
-        padding: 20px; /* Add padding to give space between the image and text */
-    }
-    
-    .container {
-        flex-direction: column-reverse; /* Display the image below the text */
-    }
-
-    .col-lg-6 {
-        text-align: center; /* Center the image */
-    }
-}
-@media (max-width: 768px) {
-    .container-xxl {
-        padding: 20px; /* Add padding to give space between the two sections */
-    }
-    
-    .row {
-        flex-direction: column; /* Display the sections in a column layout on smaller screens */
-    }
-
-    .col-lg-6 {
-        width: 100%; /* Make both columns take up the full width on smaller screens */
-    }
-}
-@media (max-width: 768px) {
-    .typed-text h2 {
-        font-size: 8px; /* Adjust the font size as needed */
-        white-space: normal;
-    }
-}
-@media (max-width: 768px) {
-    .navbar {
-        padding: 10px 0; /* Adjust the padding as needed */
-    }
-
-    .navbar-brand img {
-        height: 20px; /* Adjust the logo height as needed */
-    }
-
-    .navbar-nav a {
-        padding: 8px 10px; /* Adjust the padding as needed */
-    }
-}
-.person-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.person {
-    text-align: center;
-    width: 100%; /* Make each person take the full width on smaller screens */
-    margin: 10px 0;
-}
-@media (max-width: 767px) {
-    body {
-        width: 100%;
-        max-width: 600px; /* Adjust the width to your preference */
-        margin: 0 auto;
-    }
 }
