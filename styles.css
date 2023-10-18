@@ -439,3 +439,38 @@ footer {
         text-align: left; /* Change text alignment for better readability on small screens */
     }
 }
+.h2-wrap {
+    width: 100%; /* Make sure the text takes the full width */
+    text-align: center; /* Center the text horizontally */
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+    .h2-wrap {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+        white-space: nowrap; /* Prevent text from wrapping */
+        overflow: hidden; /* Hide overflowing text */
+        text-overflow: ellipsis; /* Add ellipsis (...) to indicate hidden text */
+    }
+}
+/* Default styles for larger screens */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-lg-6 {
+    order: 2; /* Change the order of the image column */
+}
+
+/* Styles for smaller screens (phones and tablets) */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column; /* Stack columns on smaller screens */
+    }
+
+    .col-lg-6 {
+        order: 1; /* Change the order back to display the image above the text */
+    }
+}
