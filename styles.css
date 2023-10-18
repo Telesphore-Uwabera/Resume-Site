@@ -1,28 +1,35 @@
 #navbarCollapse {
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center;
+    /* Center the content horizontally */
+    align-items: center;
+    /* Center the content vertically */
 }
 
 .navbar-nav {
     display: flex;
-    align-items: center; /* Center the items vertically within the navbar */
-    list-style: none; /* Remove the default list styles */
+    align-items: center;
+    /* Center the items vertically within the navbar */
+    list-style: none;
+    /* Remove the default list styles */
     padding: 0;
     margin: 0;
 }
 
 .nav-item {
-    margin: 0 15px; /* Adjust the horizontal spacing between navigation items */
+    margin: 0 15px;
+    /* Adjust the horizontal spacing between navigation items */
 }
 
 .navbar-brand {
-    margin-right: 20px; /* Add some space to the right of the brand logo */
+    margin-right: 20px;
+    /* Add some space to the right of the brand logo */
 }
 
 .btn-custom {
     /* Your button styles here */
 }
+
 #home .container .row {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -30,16 +37,19 @@
 }
 
 #home .col-lg-6 {
-    flex: 0 0 50%; /* The image takes up 50% of the width */
+    flex: 0 0 50%;
+    /* The image takes up 50% of the width */
     max-width: 50%;
     padding: 0;
 }
 
 #home .col-lg-6 img {
-    width: 80%; 
-    justify-content: center;/* Make the image fill its container */
+    width: 80%;
+    justify-content: center;
+    /* Make the image fill its container */
     border-radius: 30px;
 }
+
 .typed-text {
     white-space: nowrap;
     overflow: hidden;
@@ -51,6 +61,7 @@
     0% {
         width: 0;
     }
+
     100% {
         width: 100%;
     }
@@ -61,8 +72,10 @@
 #home .col-lg-6 h2,
 #home .col-lg-6 .typed-text,
 #home .col-lg-6 .d-flex {
-    padding: 30px; /* Add spacing to the text content */
+    padding: 30px;
+    /* Add spacing to the text content */
 }
+
 .d-flex.align-items-center.pt-5 a.btn.btn-primary {
     background-color: blue;
     color: white;
@@ -74,16 +87,20 @@
     background-color: white;
     color: blue;
 }
+
 /* Apply flexbox to the parent container to align items in a row */
 .d-flex.align-items-center.mb-5 {
     display: flex;
-    flex-direction: row; /* Make the items align horizontally */
-    align-items: center; /* Vertically align the items */
+    flex-direction: row;
+    /* Make the items align horizontally */
+    align-items: center;
+    /* Vertically align the items */
 }
 
 /* Add a margin to separate "2" from the text */
 .years.flex-shrink-0.text-center.me-4 h1.display-1.mb-0 {
-    margin-right: 1rem; /* Adjust the margin as needed */
+    margin-right: 1rem;
+    /* Adjust the margin as needed */
     font-size: 64px;
 }
 
@@ -91,6 +108,7 @@
 h3.lh-base.mb-0 {
     margin: 0;
 }
+
 .row.g-5 {
     display: flex;
     justify-content: space-between;
@@ -98,52 +116,71 @@ h3.lh-base.mb-0 {
 }
 
 .row.g-5 .col-lg-6 {
-    flex: 0 0 48%; /* Adjust the width as needed */
+    flex: 0 0 48%;
+    /* Adjust the width as needed */
 }
 
 .row.g-5 .col-lg-6:last-child {
-    flex: 0 0 48%; /* Adjust the width as needed */
+    flex: 0 0 48%;
+    /* Adjust the width as needed */
 }
+
 .btn-custom {
     display: inline-block;
     padding: 10px 20px;
     text-decoration: none;
     background: transparent;
-    color: blue; /* Text color when not hovered */
-    border: 2px solid blue; /* Blue border */
-    transition: all 0.3s; /* Add smooth transition effect */
+    color: blue;
+    /* Text color when not hovered */
+    border: 2px solid blue;
+    /* Blue border */
+    transition: all 0.3s;
+    /* Add smooth transition effect */
     border-radius: 5px;
 
     /* Hover effect */
     &:hover {
-        background: blue; /* Background color on hover */
-        color: white; /* Text color on hover */
+        background: blue;
+        /* Background color on hover */
+        color: white;
+        /* Text color on hover */
     }
 }
+
 .text-primary {
-    color: blue; /* Sets the text color to blue */
+    color: blue;
+    /* Sets the text color to blue */
 }
 
 .border-end {
-    border-right: 2px solid black; /* Adds a blue border to the right of the element */
-    padding-right: 10px; /* Adds spacing to separate text from the border */
+    border-right: 2px solid black;
+    /* Adds a blue border to the right of the element */
+    padding-right: 10px;
+    /* Adds spacing to separate text from the border */
 }
 
 .text-primary.fw-bold {
-    font-weight: bold; /* Makes the text bold */
+    font-weight: bold;
+    /* Makes the text bold */
 }
+
 /* Style for "Happy Clients" and "Projects Completed" headings */
 h3.text-primary {
-    color: black; /* Set the text color to blue */
-    font-weight: bold; /* Remove bold style */
-    
+    color: black;
+    /* Set the text color to blue */
+    font-weight: bold;
+    /* Remove bold style */
+
 }
 
 /* Style for the "4" in both sections */
 h2.text-primary {
-    color: blue; /* Set the text color to blue */
-    font-weight: bold; /* Apply bold style */
+    color: blue;
+    /* Set the text color to blue */
+    font-weight: bold;
+    /* Apply bold style */
 }
+
 /* Style the progress bars */
 .skill {
     display: flex;
@@ -205,6 +242,7 @@ h2.text-primary {
     background-color: #20c997;
     width: 75%;
 }
+
 .services {
     display: flex;
     justify-content: center;
@@ -237,6 +275,7 @@ h2.text-primary {
 .col-sm-6 {
     flex-basis: 50%;
 }
+
 .contact-form {
     background-color: #abbeb3;
     padding: 20px;
@@ -294,6 +333,7 @@ h2.text-primary {
     /* This div takes up half of the width */
     padding: 20px;
 }
+
 footer {
     padding: 20px;
 }
@@ -303,27 +343,16 @@ footer {
     width: 80px;
     height: 40px;
 }
-/* CSS to arrange images in the same row and change cursor to blue on hover */
-.portfolio-container {
+
+.person-container {
     display: flex;
-    flex-wrap: nowrap;
-    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
-    -ms-overflow-style: -ms-autohiding-scrollbar; /* Optional: Hide scrollbar for Edge browsers */
-    cursor: pointer; /* Change cursor to pointer */
-    color: blue;
 }
 
-.portfolio-item {
-    flex: 0 0 auto; /* Prevent item from shrinking */
+.person {
+    flex: 1;
+    text-align: center;
 }
 
-.image-fluid {
-    margin-right: 10px; /* Add some spacing between images */
-    height:40px;
-    width: 40px;
-}
-
-/* Change cursor to blue on hover */
-.portfolio-item:hover {
-    cursor: pointer;
+.person img {
+    border-radius: 30px;
 }
