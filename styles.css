@@ -400,10 +400,6 @@ footer {
     .navbar-nav a {
         padding: 8px 10px; /* Adjust the padding as needed */
     }
-
-    .btn-custom {
-        display: none; /* Hide the GitHub button on smaller screens */
-    }
 }
 .person-container {
     display: flex;
