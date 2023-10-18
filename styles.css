@@ -417,3 +417,10 @@ footer {
     width: 100%; /* Make each person take the full width on smaller screens */
     margin: 10px 0;
 }
+@media (max-width: 767px) {
+    body {
+        width: 100%;
+        max-width: 600px; /* Adjust the width to your preference */
+        margin: 0 auto;
+    }
+}
