@@ -473,3 +473,16 @@ footer {
         order: 1; /* Change the order back to display the image above the text */
     }
 }
+/* Add this CSS to your styles.css file */
+.person-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    text-align: center;
+    width: 100%; /* Make each person take the full width on smaller screens */
+    margin: 10px 0;
+}
