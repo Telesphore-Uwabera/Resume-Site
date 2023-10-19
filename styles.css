@@ -430,17 +430,11 @@ footer {
     text-align: center;
     margin: 20px;
 }
-/* Add this CSS to your styles.css file */
-@media (max-width: 767px) {
-    .typed-text {
-        animation: none; /* Disable animations for the .typed-text element */
-    }
-}
 
 @media (max-width: 768px) {
     /* Media query for screens with a max width of 768px (tablets and smartphones) */
     .typed-text {
-        font-size: 18px; /* Adjust the font size for smaller screens */
+        font-size: 8px; /* Adjust the font size for smaller screens */
         margin: 10px; /* Adjust the margin for smaller screens */
         text-align: both; /* Change text alignment for better readability on small screens */
     }
@@ -459,7 +453,6 @@ footer {
         text-overflow: ellipsis; /* Add ellipsis (...) to indicate hidden text */
     }
 }
-/* Add this CSS to your styles.css file */
 @media (max-width: 991px) {
     .container-fluid.bg-light .row {
         flex-direction: column;
@@ -475,7 +468,6 @@ footer {
         margin-top: 20px; /* Adjust the margin as needed */
     }
 }
-/* Add this CSS to your styles.css file */
 @media (max-width: 767px) {
     .col-lg-6.wow.fadeInUp[data-wow-delay="0.1s"] {
         text-align: both;
@@ -550,16 +542,6 @@ footer {
         padding: 0 10px; /* Optional padding for the content */
     }
 }
-@media (max-width: 767px) {
-    .typed-text {
-        display: block;
-    }
-}
-.typed-text h2 {
-    font-size: 26px; /* Set your default font size */
-    white-space: nowrap; /* Prevent line breaks */
-}
-
 /* Media query for screens up to 768px (typical tablet size) */
 @media screen and (max-width: 768px) {
     .typed-text h2 {
