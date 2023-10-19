@@ -555,3 +555,21 @@ footer {
         display: block;
     }
 }
+.typed-text h2 {
+    font-size: 26px; /* Set your default font size */
+    white-space: nowrap; /* Prevent line breaks */
+}
+
+/* Media query for screens up to 768px (typical tablet size) */
+@media screen and (max-width: 768px) {
+    .typed-text h2 {
+        font-size: 10px; /* Reduce font size for smaller screens */
+    }
+}
+
+/* Media query for screens up to 480px (typical mobile phone size) */
+@media screen and (max-width: 480px) {
+    .typed-text h2 {
+        font-size: 10px; /* Further reduce font size for even smaller screens */
+    }
+}
