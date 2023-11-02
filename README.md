@@ -3,7 +3,7 @@
 
 Welcome to the repository for my personal website, where I showcase my skills, projects, and contact information. This website serves as my digital portfolio and a way for people to get in touch with me.
 
-You can visit the live website here: [Telesphore Uwabera - Personal Website](https://www.example.com)
+You can visit the live website here: [Telesphore Uwabera - Personal Website](https://www.telesphoreuwabera.com)
 
 ![Telesphore Uwabera - Personal Website Screenshot](screenshot.png)
 
@@ -48,7 +48,7 @@ This website is designed to provide information about me, Telesphore Uwabera. It
 2. **Navigate to the Project Folder:**
 
    ```bash
-   cd your-repo
+   cd Resume-Site
    ```
 
 3. **Open `index.html` in a Web Browser:**
