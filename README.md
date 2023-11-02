@@ -42,7 +42,7 @@ This website is designed to provide information about me, Telesphore Uwabera. It
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/yourusername/your-repo.git
+   git clone https://github.com/Telesphore-Uwabera/Resume-Site.git
    ```
 
 2. **Navigate to the Project Folder:**
